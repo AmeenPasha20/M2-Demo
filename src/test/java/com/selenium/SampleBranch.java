@@ -1,9 +1,13 @@
 package com.selenium;
 
+import org.testng.annotations.Test;
+
 public class SampleBranch {
-	public static void main(String []args)
+	@Test
+	public static void demo()
 	{
 		System.out.println("hi");
+		System.out.println("hello");
 	}
 
 }
